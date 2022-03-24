@@ -118,6 +118,7 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-roibeardruadhan-boutique-fnqcysn5zm7.ws-eu38.gitpod.io/',]
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
